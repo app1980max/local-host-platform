@@ -9,7 +9,7 @@ worker_count = 1
 ###---MinIO configuration
 minio_root_user        = "root"
 minio_root_password    = "q1w2e3r4100@"  # Replace with a secret ref or more secure value
-minio_buckets          = "velero,terraform,loki"
+minio_buckets          = "terraform,loki"
 minio_persistence_size = "10Gi"
 minio_service_type     = "ClusterIP"
 
