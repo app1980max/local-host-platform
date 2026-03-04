@@ -17,10 +17,9 @@ resource "helm_release" "minio" {
 
       # Buckets to create automatically
       buckets = [
-        { name = "velero" },
         { name = "airbyte" },
-        { name = "anythingllm" },
-        { name = "loki" }
+        { name = "loki" },
+        { name = "terraform" }
       ]
 
       # Enable persistent storage
