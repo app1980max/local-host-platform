@@ -35,7 +35,7 @@ module "argo-events" {
 
 module "minio" {
   source = "./modules/minio"
-  depends_on = [module.argo]
+  depends_on = [module.argo-events]
 }
 
 module "vcluster" {
