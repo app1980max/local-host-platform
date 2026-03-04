@@ -5,6 +5,7 @@
 KIND is primarily designed for local environments — it runs an entire Kubernetes cluster inside Docker containers, meaning each node (control plane or worker) is just a container. Its provides a flexible way to create multi-node Kubernetes clusters for development and testing purposes, especially useful for scenarios where you need to simulate a more complex, distributed environment.
 
 
+
 🚀 It’s especially helpful for:
 ```
 ✅ Developers who need a fast, disposable Kubernetes cluster on their laptop.
