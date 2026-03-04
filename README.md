@@ -1,7 +1,6 @@
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/cbc03c6d-535f-4d9d-8916-0aeb197cf3be" />
 
 
-
 ## Local Environment | Development 
 KIND is primarily designed for local environments — it runs an entire Kubernetes cluster inside Docker containers, meaning each node (control plane or worker) is just a container. Its provides a flexible way to create multi-node Kubernetes clusters for development and testing purposes, especially useful for scenarios where you need to simulate a more complex, distributed environment.
 
