@@ -38,5 +38,8 @@ module "minio" {
   depends_on = [module.argo]
 }
 
-
+module "vcluster" {
+  source = "./modules/vcluster"
+  depends_on = [module.minio]
+}
 
