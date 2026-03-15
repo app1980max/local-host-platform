@@ -8,9 +8,9 @@ resource "helm_release" "rancher" {
   create_namespace = true
 
   values = [<<EOF
-hostname: console.appflex.io
+hostname: console-dev.appflex.io
 # Admin credentials
-bootstrapPassword: "q1w2e3r4100@"   # Initial admin password
+bootstrapPassword: "q1w2e3r4100@"
 replicas: 1
 
 # Ingress configuration without cert-manager / LetsEncrypt
