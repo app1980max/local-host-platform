@@ -19,7 +19,7 @@ resource "helm_release" "minio" {
       buckets = [
         { name = "airbyte" },
         { name = "loki" },
-        { name = "terraform" }
+        { name = "rancher" }
       ]
 
       # Enable persistent storage
